@@ -1,0 +1,48 @@
+#how to run?
+https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
+
+git config --global user.name "141903007"
+git config --global user.email "chandrakantjare6788@gmail.com"
+
+mkdir gittest
+cd gittest
+
+echo "# gittest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"     
+git branch -M main    #this not runned
+git remote add origin https://github.com/141903007/gittest.git
+git push -u origin master
+
+
+
+
+git clone https://github.com/141903007/gittest.git
+git branch
+git branch team1
+
+
+
+
+
+
+
+
+
+…or create a new repository on the command line
+
+echo "# gittest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/141903007/gittest.git
+git push -u origin main
+                
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/141903007/gittest.git
+git branch -M main
+git push -u origin main
