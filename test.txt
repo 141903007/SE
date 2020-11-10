@@ -1,6 +1,6 @@
 #how to run?
 
-Ans : https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
+Ans:1 https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
 
 git config --global user.name "141903007"
 git config --global user.email "chandrakantjare6788@gmail.com"
